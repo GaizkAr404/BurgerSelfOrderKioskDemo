@@ -14,7 +14,7 @@ public class DeleteProductScreen extends CarouselScreen {
             SimpleKiosk kiosk = context.getKiosk();
             int i = 0;
             Order order = context.getOrder();
-            if (order.getProducts().size() == 0) {
+            if (order.getProducts() == null || order.getProducts().isEmpty()) {
                 return new OrderScreen();
                 
             }
