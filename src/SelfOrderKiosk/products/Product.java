@@ -1,4 +1,4 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.products;
 
 public interface Product {
     public int getPrice();

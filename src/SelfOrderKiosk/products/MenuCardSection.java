@@ -1,4 +1,4 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.products;
 
 import java.util.List;
 

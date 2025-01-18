@@ -1,4 +1,4 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.Manager;
 
 public class BurgerKioskApplication {
 

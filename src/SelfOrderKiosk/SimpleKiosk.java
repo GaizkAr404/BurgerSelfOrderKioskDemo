@@ -1,5 +1,6 @@
 package SelfOrderKiosk;
 
+import SelfOrderKiosk.Manager.TranslatorManager;
 import java.util.List;
 import sienens.BurgerSelfOrderKiosk;
 
@@ -43,8 +44,15 @@ public class SimpleKiosk {
     }
     
     public void clearScreen(){
-        
+        this.kiosk.setTitle(null);
+        this.kiosk.setImage(null);
+        this.kiosk.setDescription(null);
+        for (char option = 'A'; option <= 'H'; option++) {   // Limpia las opciones de menú
+            this.kiosk.setOption(option, null);
+        }
     }
+        
+    
     
     public void setImage(String img){
         kiosk.setImage(img);

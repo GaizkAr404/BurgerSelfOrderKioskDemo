@@ -1,4 +1,4 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.products;
 
 public class IndividualProduct implements Product {
     private String name;
@@ -27,6 +27,10 @@ public class IndividualProduct implements Product {
 
     public String getImageFileName() {
         return imageFileName;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
 }

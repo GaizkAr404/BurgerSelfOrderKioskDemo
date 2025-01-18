@@ -1,12 +1,38 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.Screens;
 
+import SelfOrderKiosk.SimpleKiosk;
+import SelfOrderKiosk.Manager.Context;
+import SelfOrderKiosk.Manager.TranslatorManager;
+
+//Esta clase representa la pantalla de bienvenida
 public class WelcomeScreen implements KioskScreen {
 
+    //Muestra la pantalla de bienvenida y redirecciona a la pantalla de pedido o idioma
+    @Override
     public KioskScreen show(Context context) {
-        
+        context.initialize();
+        SimpleKiosk kiosk = context.getKiosk();
+        configureScreenButtons(kiosk, context);
+        char option = kiosk.waitEvent(60);
+
+        if (option == 'A') {
+            return new OrderScreen();
+        } else if (option == 'B') {
+            return new IdiomScreen();
+        } else {
+            return this;
+        }
     }
 
-    private void configureScreenButtons() {
+    //Configura la pantalla de bienvenida
+    private void configureScreenButtons(SimpleKiosk kiosk, Context context) {
+        TranslatorManager translator = context.getTranslator();
+        kiosk.setMenuMode();
+        kiosk.clearScreen();
+        kiosk.setTitle(translator.translate("SelfOrderKiosk"));
+        kiosk.setOption('A', translator.translate("Iniciar pedido"));
+        kiosk.setOption('B', translator.translate("Cambiar idioma"));
+
         
     }
 

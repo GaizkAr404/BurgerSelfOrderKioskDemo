@@ -1,4 +1,7 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.Screens;
+
+import SelfOrderKiosk.Screens.KioskScreen;
+import SelfOrderKiosk.Manager.Context;
 
 public class PurchaseScreen implements KioskScreen {
 
