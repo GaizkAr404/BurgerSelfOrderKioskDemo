@@ -4,7 +4,7 @@ import SelfOrderKiosk.Screens.CarouselScreen;
 import SelfOrderKiosk.products.IndividualProduct;
 import SelfOrderKiosk.products.Menu;
 import SelfOrderKiosk.products.Order;
-import SelfOrderKiosk.SimpleKiosk;
+import SelfOrderKiosk.Manager.SimpleKiosk;
 import SelfOrderKiosk.Manager.Context;
 
 public class MenuScreen extends CarouselScreen {

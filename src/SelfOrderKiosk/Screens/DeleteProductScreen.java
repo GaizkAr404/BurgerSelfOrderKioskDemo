@@ -3,7 +3,7 @@ package SelfOrderKiosk.Screens;
 import java.util.ArrayList;
 import java.util.List;
 
-import SelfOrderKiosk.SimpleKiosk;
+import SelfOrderKiosk.Manager.SimpleKiosk;
 import SelfOrderKiosk.Manager.Context;
 import SelfOrderKiosk.products.IndividualProduct;
 import SelfOrderKiosk.products.Menu;

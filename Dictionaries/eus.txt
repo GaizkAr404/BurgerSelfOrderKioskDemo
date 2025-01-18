@@ -1,2 +1,62 @@
-Iniciar pedido:Eskaera hasi
+Iniciar pedido:Eskaria hasi
 Cambiar idioma:Hizkuntza aldatu
+Añadir producto individual:Banakako produktua gehitu
+Añadir menu:Menua gehitu
+Eliminar producto:Produktua kendu
+Finalizar pedido:Eskaria amaitu
+Cancelar pedido:Eskaria ezeztatu
+Secciones:Atalak
+Hamburguesas:Hanburgesak
+Bebidas:Edariak
+Complementos:Osagarriak
+Volver:Itzuli
+Siguiente:Hurrengoa
+Anterior:Aurrekoa
+Añadir producto:Produktua gehitu
+HAMBURGUESAS:HANBURGESAK
+ANGUS:ANGUS
+Carne de black angus de 160 g Pan de hamburguesa 'BBQ BOURBON':160 g-ko black angus haragia 'BBQ BOURBON' ogia
+GALLEGA:GALIZIARRA
+Carnes de res rubia Gallega de 160 g Panes de hamburguesa 'CRISTAL CROCAN':160 g-ko Galiziako behi hori haragia 'CRISTAL CROCAN' ogiak
+POLLO:OILASKOA
+Chicken supercrujiente. Pan brioche, salsa césar coreana:Oilasko superkurruskaria. Brioche ogia, Koreako Caesar saltsa
+VEGETAL:BEGETALA
+Hecho a base de plantas. Pan brioche, salsa césar coreana:Landareetan oinarritua. Brioche ogia, Koreako Caesar saltsa
+BEBIDAS:EDARIAK
+COCA COLA NORMAL:COCA COLA ARRUNTA
+Coca Cola normal:Coca Cola arrunta
+COCA COLA ZERO:COCA COLA ZERO
+Coca Cola. Sin azúcar:Coca Cola. Azukrerik gabe
+COCA COLA ZERO ZERO:COCA COLA ZERO ZERO
+Coca Cola. Sin azúcar y sin cafeína:Coca Cola. Azukrerik eta kafeinarik gabe
+FANTA:FANTA
+Fanta Naranja. Sin azúcares:Laranja Fanta. Azukrerik gabe
+AGUA:URA
+Agua mineral:Ur minerala
+CERVEZA:GARAGARDOA
+Cerveza Grande:Garagardo handia
+COMPLEMENTOS:OSAGARRIAK
+ALITAS:HEGOAK
+Alitas de pollo, grandes y sabrosas, para los hambrientos amantes del buen pollo.:Oilasko hego handiak eta goxoak, oilasko on baten zale goseztatuentzat.
+AROS DE CEBOLLA:TIPULA ERAZTUNAK
+Para compartir, redondos, sabrosos, crujientes y dorados:Partekatzeko, biribilak, goxoak, kurruskari eta urreztatuak
+PATATAS_SUPREME:PATATA_SUPREMAK
+Deliciosas Patatas Supreme con la nueva salsa Sour Cream.:Patata Supreme goxoak Sour Cream saltsa berriarekin.
+NUGGETS:NUGGETAK
+Hechos de pollo rebozado, acompañados de estas deliciosas salsas: BBQ, Deluxe, Buffalo y Agridulce.:Oilasko arrautza-irineztatuaz eginak, saltsa goxo hauekin: BBQ, Deluxe, Buffalo eta Gazi-gozoa.
+ENSALADA:ENTSALADA
+Ensalada de la Huerta con una mezcla de lechuga fresca y los mejores tomatitos cherry. Es el complemento ideal.:Baratze Entsalada letxuga fresko eta cherry tomate onenen nahasketarekin. Osagarri ezin hobea da.
+APPLE PIE:SAGAR TARTA
+Postre delicioso de pastel de manzana caliente con un toque de canela, envuelto en hojaldre.:Sagar tarta bero goxoa kanela ukitu batekin, hostore batean bilduta.
+SUNDAE CHOCOLATE:TXOKOLATE SUNDAEA
+Sundae de Chocolate Negro que combina nuestro helado con una rico sirope de chocolate negro.:Txokolate Beltzezko Sundaea gure izozkia txokolate beltz sirope aberats batekin konbinatzen duena.
+PIÑA:ANANA
+Deliciosa piña muy refrescante para consumir en cualquier momento del día:Anana goxo eta freskoa eguneko edozein unetan kontsumitzeko
+OREO:OREO
+Este delicioso postre combina nuestro helado con crujientes trozos de las clásicas galletas Oreo.:Postre goxo honek gure izozkia Oreo gaileta klasikoen zati kurruskari batzuekin konbinatzen du.
+PATATAS FRITAS:PATATA FRIJITUAK
+Las mejores, las más crujientes, las que tienen más sabor.:Onenak, kurruskariena, zapore gehien dutenak.
+NUGGETS_VEGETALES:NUGGET_BEGETALAK
+Crujientes, dorados, deliciosos. Los nuggets de toda la vida, con todo su sabor, pero hechos con plantas.:Kurruskari, urreztatuak, goxoak. Betiko nuggetak, beren zapore guztiarekin, baina landareekin eginak.
+Pedido:Eskaria
+Modificar pedido:Esk

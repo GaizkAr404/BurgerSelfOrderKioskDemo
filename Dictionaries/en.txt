@@ -1,2 +1,64 @@
 Iniciar pedido:Start order
 Cambiar idioma:Change language
+Añadir producto individual:Add individual product
+Añadir menu:Add menu
+Eliminar producto:Remove product
+Finalizar pedido:Finish order
+Cancelar pedido:Cancel order
+Secciones:Sections
+Hamburguesas:Burgers
+Bebidas:Drinks
+Complementos:Sides
+Volver:Back
+Siguiente:Next
+Anterior:Previous
+Añadir producto:Add product
+HAMBURGUESAS:BURGERS
+ANGUS:ANGUS
+Carne de black angus de 160 g Pan de hamburguesa BBQ BOURBON:160g Black Angus beef 'BBQ BOURBON' bun
+GALLEGA:GALICIAN
+Carnes de res rubia Gallega de 160 g Panes de hamburguesa CRISTAL CROCAN:160g Galician blonde beef 'CRISTAL CROCAN' buns
+POLLO:CHICKEN
+Chicken supercrujiente. Pan brioche, salsa césar coreana:Super crispy chicken. Brioche bun, Korean Caesar sauce
+VEGETAL:VEGETABLE
+Hecho a base de plantas.Pan brioche, salsa césar coreana:Plant-based. Brioche bun, Korean Caesar sauce
+BEBIDAS:DRINKS
+COCA COLA NORMAL:REGULAR COCA COLA
+Coca Cola normal:Regular Coca Cola
+COCA COLA ZERO:COCA COLA ZERO
+Coca Cola. Sin azúcar:Sugar-free Coca Cola
+COCA COLA ZERO ZERO:COCA COLA ZERO ZERO
+Coca Cola. Sin azúcar y sin cafeína:Sugar-free and caffeine-free Coca Cola
+FANTA:FANTA
+Fanta Naranja. Sin azúcares:Sugar-free Orange Fanta
+AGUA:WATER
+Agua mineral:Mineral water
+CERVEZA:BEER
+Cerveza Grande:Large Beer
+COMPLEMENTOS:SIDES
+ALITAS:WINGS
+Alitas de pollo, grandes y sabrosas, para los hambrientos amantes del buen pollo.:Large and tasty chicken wings, for hungry lovers of good chicken.
+AROS DE CEBOLLA:ONION RINGS
+Para compartir, redondos, sabrosos, crujientes y dorados:For sharing, round, tasty, crispy and golden
+PATATAS_SUPREME:SUPREME FRIES
+Deliciosas Patatas Supreme con la nueva salsa Sour Cream.:Delicious Supreme Fries with the new Sour Cream sauce.
+NUGGETS:NUGGETS
+Hechos de pollo rebozado, acompañados de estas deliciosas salsas BBQ, Deluxe, Buffalo y Agridulce.:Made from breaded chicken, accompanied by these delicious sauces: BBQ, Deluxe, Buffalo and Sweet and Sour.
+ENSALADA:SALAD
+Ensalada de la Huerta con una mezcla de lechuga fresca y los mejores tomatitos cherry. Es el complemento ideal.:Garden Salad with a mix of fresh lettuce and the best cherry tomatoes. It's the ideal side.
+APPLE PIE:APPLE PIE
+Postre delicioso de pastel de manzana caliente con un toque de canela, envuelto en hojaldre.:Delicious hot apple pie dessert with a touch of cinnamon, wrapped in puff pastry.
+SUNDAE CHOCOLATE:CHOCOLATE SUNDAE
+Sundae de Chocolate Negro que combina nuestro helado con una rico sirope de chocolate negro.:Dark Chocolate Sundae that combines our ice cream with a rich dark chocolate syrup.
+PIÑA:PINEAPPLE
+Deliciosa piña muy refrescante para consumir en cualquier momento del día:Delicious refreshing pineapple to consume at any time of the day
+OREO:OREO
+Este delicioso postre combina nuestro helado con crujientes trozos de las clásicas galletas Oreo.:This delicious dessert combines our ice cream with crunchy pieces of classic Oreo cookies.
+PATATAS FRITAS:FRENCH FRIES
+Las mejores, las más crujientes, las que tienen más sabor.:The best, the crispiest, the most flavorful.
+NUGGETS_VEGETALES:VEGETABLE NUGGETS
+Crujientes, dorados, deliciosos. Los nuggets de toda la vida, con todo su sabor, pero hechos con plantas.:Crispy, golden, delicious. The nuggets of a lifetime, with all their flavor, but made from plants.
+Pedido:Order
+Modificar pedido:Modify order
+Introduce la tarjeta de credito:Enter credit card
+Idiomas:Languages

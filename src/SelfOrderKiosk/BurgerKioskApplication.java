@@ -1,4 +1,6 @@
-package SelfOrderKiosk.Manager;
+package SelfOrderKiosk;
+
+import SelfOrderKiosk.Manager.KioskManager;
 
 public class BurgerKioskApplication {
 

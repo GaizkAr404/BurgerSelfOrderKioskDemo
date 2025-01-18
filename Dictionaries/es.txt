@@ -58,3 +58,7 @@ PATATAS FRITAS:PATATAS FRITAS
 Las mejores, las más crujientes, las que tienen más sabor.:Las mejores, las más crujientes, las que tienen más sabor.
 NUGGETS_VEGETALES:NUGGETS_VEGETALES
 Crujientes, dorados, deliciosos. Los nuggets de toda la vida, con todo su sabor, pero hechos con plantas.:Crujientes, dorados, deliciosos. Los nuggets de toda la vida, con todo su sabor, pero hechos con plantas.
+Pedido:Pedido
+Modificar pedido:Modificar pedido
+Introduce la tarjeta de credito:Introduce la tarjeta de credito
+Idiomas:Idiomas

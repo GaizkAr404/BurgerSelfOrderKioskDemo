@@ -1,4 +1,4 @@
-package SelfOrderKiosk;
+package SelfOrderKiosk.Manager;
 
 import SelfOrderKiosk.Manager.TranslatorManager;
 import java.util.List;

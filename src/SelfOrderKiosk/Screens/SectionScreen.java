@@ -1,6 +1,6 @@
 package SelfOrderKiosk.Screens;
 
-import SelfOrderKiosk.SimpleKiosk;
+import SelfOrderKiosk.Manager.SimpleKiosk;
 import SelfOrderKiosk.Manager.Context;
 
 public class SectionScreen implements KioskScreen {

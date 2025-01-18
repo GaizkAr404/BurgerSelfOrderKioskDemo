@@ -4,7 +4,6 @@ import SelfOrderKiosk.products.Menu;
 import SelfOrderKiosk.products.MenuCard;
 import SelfOrderKiosk.Manager.TranslatorManager;
 import SelfOrderKiosk.products.Order;
-import SelfOrderKiosk.SimpleKiosk;
 
 public class Context {
     private SimpleKiosk kiosk;
@@ -17,6 +16,11 @@ public class Context {
 
     public TranslatorManager getTranslator() {
         return translator;
+    }
+
+    public void changeIdiom(String idiom){
+        translator.setCurrentIdiom(idiom);
+        
     }
 
     public SimpleKiosk getKiosk() {
@@ -38,8 +42,7 @@ public class Context {
     }
 
     public void initialize(){
-        TranslatorManager translator = new TranslatorManager();
-        this.translator = translator;
+        
         SimpleKiosk kiosk = new SimpleKiosk();
         this.kiosk = kiosk;
         Order order = new Order();
@@ -47,5 +50,9 @@ public class Context {
         MenuCard menuCard = MenuCard.loadfromDisk();
         this.menuCard = menuCard;
 
+    }
+
+    public Context(){
+        this.translator = new TranslatorManager();
     }
 }

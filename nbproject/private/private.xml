@@ -5,16 +5,22 @@
         <group name="AtmExercise"/>
         <group>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/ProductScreen.java</file>
-            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/OrderScreen.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/BurgerKioskApplication.java</file>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/SectionScreen.java</file>
-            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/Context.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/Translator.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/WelcomeScreen.java</file>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/CarouselScreen.java</file>
-            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/products/MenuCardSection.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/DeleteProductScreen.java</file>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/products/IndividualProduct.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/PurchaseScreen.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/SimpleKiosk.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Screens/OrderScreen.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/products/Menu.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/Context.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/KioskManager.java</file>
+            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/products/MenuCardSection.java</file>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/TranslatorManager.java</file>
             <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/products/MenuCard.java</file>
-            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/SimpleKiosk.java</file>
-            <file>file:/C:/Users/Gaizka/OneDrive%20-%20Universidad%20Rey%20Juan%20Carlos/POO/BurgerSelfOrderKioskDemo/src/SelfOrderKiosk/Manager/BurgerKioskApplication.java</file>
         </group>
     </open-files>
 </project-private>

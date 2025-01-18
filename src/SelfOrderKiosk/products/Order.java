@@ -24,7 +24,12 @@ public class Order{
     }
 
     public String getOrderText(){
-
+        String orderText = "";
+        orderText += String.valueOf(getTotalAmount())  + "€ " + "\n";
+        for(Product product : products){
+            orderText += product.getName() + "\n";
+        }
+        return orderText;
     }
 
     public int getOrderNumber(){
