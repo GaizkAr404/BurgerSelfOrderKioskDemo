@@ -8,12 +8,12 @@ import java.util.HashMap;
 
 public class Translator {
     private Map<String, String> palabras;
-    
+    //Translates a text
     public String translate(String text) {
         return palabras.get(text);
 
     }
-
+    //Constructor from dictionary
     public Translator(String idiom) {
         palabras = new HashMap<>();
 
@@ -30,7 +30,7 @@ public class Translator {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.palabras = palabras;
+        
         
 
     }

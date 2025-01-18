@@ -17,6 +17,7 @@ public class TranslatorManager {
     private Translator currentDictionary;
     private Map<String, Translator> dictionaries;
     
+    //Constructor
     public TranslatorManager(){
         dictionaries = new HashMap<String, Translator>();
         dictionaries.put("es", new Translator("es"));
@@ -25,12 +26,12 @@ public class TranslatorManager {
         currentDictionary = dictionaries.get("es");
         
     }
-
+    //Changes the idiom of the translator
     public void setCurrentIdiom(String idiom){
         currentDictionary = dictionaries.get(idiom);
     }
-
-    public List getIdioms(){
+    //Returns the idioms
+    public List<String> getIdioms(){
         List<String> idioms = new ArrayList<String>();
         for (String idiom : dictionaries.keySet()){
             idioms.add(idiom);
@@ -38,7 +39,7 @@ public class TranslatorManager {
         return idioms;
         
     }
-
+    //Translates a text
     public String translate(String text){
         return currentDictionary.translate(text);
     }

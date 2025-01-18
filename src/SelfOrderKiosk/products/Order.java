@@ -7,6 +7,7 @@ public class Order{
     private int orderNumber;
     private List<Product> products;
 
+    //Calculates the total amount of the order
     public int getTotalAmount(){
         int totalAmount = 0;
         for(Product product : products){
@@ -14,15 +15,15 @@ public class Order{
         }
         return totalAmount;
     }
-
+    //Returns individual product
     public Product getProduct(int i){
         return products.get(i);
     }
-
+    //Returns all the products
     public List<Product> getProducts(){
         return products;
     }
-
+    //Generates a string with the order
     public String getOrderText(){
         String orderText = "";
         orderText += String.valueOf(getTotalAmount())  + "€ " + "\n";

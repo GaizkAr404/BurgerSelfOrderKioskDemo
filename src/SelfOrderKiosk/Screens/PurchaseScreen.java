@@ -1,7 +1,6 @@
 package SelfOrderKiosk.Screens;
 
-import SelfOrderKiosk.Screens.KioskScreen;
-import SelfOrderKiosk.products.Order;
+
 import urjc.UrjcBankServer;
 
 import java.io.BufferedReader;
@@ -17,8 +16,14 @@ import SelfOrderKiosk.Manager.Context;
 import SelfOrderKiosk.Manager.SimpleKiosk;
 
 public class PurchaseScreen implements KioskScreen {
-
+    //Shows the purchase screen
     public KioskScreen show(Context context) {
+
+        //Check if there are products in the order
+        if (context.getOrder().getProducts() == null) {
+            return new OrderScreen();
+        }
+        //Show the purchase screen with the option to introduce card
         SimpleKiosk kiosk = context.getKiosk();
         kiosk.setMessageMode();
         kiosk.clearScreen();
@@ -38,6 +43,8 @@ public class PurchaseScreen implements KioskScreen {
                 kiosk.expelCreditCard(5);
                 return this;  
             } else {
+
+                //Check if the bank is available
                 UrjcBankServer bank = new UrjcBankServer();
                 boolean connected = bank.comunicationAvaiable();
                 if (connected == false) {
@@ -45,6 +52,7 @@ public class PurchaseScreen implements KioskScreen {
                     return this;
                 }
                 boolean pay = false;
+                //Do the payment
                 try{
                     pay = bank.doOperation(cardNumber, context.getOrder().getTotalAmount());
                 } catch (Exception e) {
@@ -73,7 +81,7 @@ public class PurchaseScreen implements KioskScreen {
         kiosk.setOption('B', context.getTranslator().translate("Cancelar pedido"));
         
     }
-
+    //Write the order to a file and prints the ticket
     private void writeOrderToFile(Context context, SimpleKiosk kiosk) {
 
         int id = 0;
@@ -97,7 +105,7 @@ public class PurchaseScreen implements KioskScreen {
         text.add(context.getOrder().getOrderText());
         kiosk.print(text);
     }   
-
+    //Increment the order number to set the id using the previous orders from file
     private int incrementOrderNumber() {
         int id = 1; // Default ID if the file is empty or no ID is found
         try (BufferedReader reader = new BufferedReader(new FileReader("HistoricoPedidos.txt"))) {

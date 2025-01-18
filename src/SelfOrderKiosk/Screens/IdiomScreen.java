@@ -1,10 +1,11 @@
 package SelfOrderKiosk.Screens;
 
-import SelfOrderKiosk.Screens.CarouselScreen;
 import SelfOrderKiosk.Manager.Context;
 import SelfOrderKiosk.Manager.SimpleKiosk;
 
 public class IdiomScreen extends CarouselScreen {
+
+    //Shows the screen to select the idiom
     public KioskScreen show(Context context) {
         SimpleKiosk kiosk = context.getKiosk();
         kiosk.setMenuMode();

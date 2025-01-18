@@ -1,8 +1,6 @@
 package SelfOrderKiosk.Manager;
 
-import SelfOrderKiosk.products.Menu;
 import SelfOrderKiosk.products.MenuCard;
-import SelfOrderKiosk.Manager.TranslatorManager;
 import SelfOrderKiosk.products.Order;
 
 public class Context {
@@ -10,37 +8,35 @@ public class Context {
     private TranslatorManager translator;
     private Order order;
     private MenuCard menuCard;
-    private int orderNumber;
-    private int kioskNumber;
-    private int numberofKiosks;
 
+    //Returns the tranlator
     public TranslatorManager getTranslator() {
         return translator;
     }
-
+    //Changes the idiom of the translator
     public void changeIdiom(String idiom){
         translator.setCurrentIdiom(idiom);
         
     }
-
+    //Returns the kiosk
     public SimpleKiosk getKiosk() {
         return kiosk;
         
     }
-
+    //Returns the order
     public Order getOrder() {
         return order;
     }
-
+    //Returns the menu card
     public MenuCard getMenuCard() {
         return menuCard;
         
     }
-
+    //Sets the order
     public void setOrder(Order order){
         this.order = order;
     }
-
+    //Initializes the context
     public void initialize(){
         
         SimpleKiosk kiosk = new SimpleKiosk();
@@ -51,7 +47,7 @@ public class Context {
         this.menuCard = menuCard;
 
     }
-
+    //Constructor
     public Context(){
         this.translator = new TranslatorManager();
     }

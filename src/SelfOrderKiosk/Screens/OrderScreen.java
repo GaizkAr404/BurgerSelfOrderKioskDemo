@@ -5,7 +5,7 @@ import SelfOrderKiosk.Manager.Context;
 import SelfOrderKiosk.products.Order;
 
 public class OrderScreen implements KioskScreen {
-
+    //Shows the order screen
     public KioskScreen show(Context context) {
         SimpleKiosk kiosk = context.getKiosk();
         
@@ -31,7 +31,7 @@ public class OrderScreen implements KioskScreen {
             return this;
         }
     }
-
+    //Configures the screen buttons for the order screen
     private void configureScreenButtons(Context context, SimpleKiosk kiosk) {
         kiosk.setMenuMode();
         kiosk.clearScreen();

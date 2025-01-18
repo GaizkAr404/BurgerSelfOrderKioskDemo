@@ -18,6 +18,8 @@ public class DeleteProductScreen extends CarouselScreen {
                 return new OrderScreen();
                 
             }
+
+            //loop to select the product to delete
             while (true) {
                 
                 order = context.getOrder();

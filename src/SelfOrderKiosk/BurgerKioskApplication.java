@@ -1,7 +1,7 @@
 package SelfOrderKiosk;
 
 import SelfOrderKiosk.Manager.KioskManager;
-
+//main class
 public class BurgerKioskApplication {
 
     public static void main(String[] args) {

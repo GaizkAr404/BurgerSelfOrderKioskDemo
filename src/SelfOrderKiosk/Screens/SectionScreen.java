@@ -4,6 +4,7 @@ import SelfOrderKiosk.Manager.SimpleKiosk;
 import SelfOrderKiosk.Manager.Context;
 
 public class SectionScreen implements KioskScreen {
+    //Shows the section screen
     public KioskScreen show(Context context) {
         SimpleKiosk kiosk = context.getKiosk();
         configureScreenButtons(kiosk, context);
@@ -21,7 +22,7 @@ public class SectionScreen implements KioskScreen {
             
         }
     }
-
+    //Configures the screen buttons for the section screen
     public void configureScreenButtons(SimpleKiosk kiosk, Context context) {
         kiosk.setMenuMode();
         kiosk.clearScreen();

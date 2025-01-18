@@ -17,7 +17,7 @@ public class MenuCard {
         return sectionList.size();
         
     }
-
+    //Loads the menucard and the subclasses from Catalos.xml
     public static MenuCard loadfromDisk() {
         try (InputStream is = new FileInputStream(new File("Catalog.xml"))) {
             XMLDecoder decoder = new XMLDecoder(is);

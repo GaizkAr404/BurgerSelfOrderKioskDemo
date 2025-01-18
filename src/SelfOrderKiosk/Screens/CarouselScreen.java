@@ -2,9 +2,10 @@ package SelfOrderKiosk.Screens;
 
 import SelfOrderKiosk.Manager.SimpleKiosk;
 import SelfOrderKiosk.Manager.Context;
-import SelfOrderKiosk.Screens.KioskScreen;
 
 public class CarouselScreen implements KioskScreen{
+
+    //Adjusts the buttons for the different carousels.
     protected void adjustCarruselButtons(int currentElement, int numberOfElements, SimpleKiosk kiosk) {
             if (currentElement == 0) {
                 kiosk.setOption('G',null);
@@ -26,7 +27,6 @@ public class CarouselScreen implements KioskScreen{
 
     @Override
     public KioskScreen show(Context context) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'show'");
     }
 

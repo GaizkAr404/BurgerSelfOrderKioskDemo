@@ -7,7 +7,7 @@ import SelfOrderKiosk.products.Order;
 
 public class ProductScreen extends CarouselScreen {
     private int section;
-
+    //Shows the kiosk screen of the selected section
     @Override
     public KioskScreen show(Context context) {
         SimpleKiosk kiosk = context.getKiosk();
@@ -16,7 +16,7 @@ public class ProductScreen extends CarouselScreen {
         configureScreenButtons();
 
 
-
+        //loop to select the products to add to the menu
         while (true) {
             
         

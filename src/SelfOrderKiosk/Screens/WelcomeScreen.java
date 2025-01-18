@@ -7,7 +7,7 @@ import SelfOrderKiosk.Manager.TranslatorManager;
 //Esta clase representa la pantalla de bienvenida
 public class WelcomeScreen implements KioskScreen {
 
-    //Muestra la pantalla de bienvenida y redirecciona a la pantalla de pedido o idioma
+    //Shows the welcome screen
     @Override
     public KioskScreen show(Context context) {
         context.initialize();
@@ -24,7 +24,7 @@ public class WelcomeScreen implements KioskScreen {
         }
     }
 
-    //Configura la pantalla de bienvenida
+    //Sets the buttons for the welcome screen
     private void configureScreenButtons(SimpleKiosk kiosk, Context context) {
         TranslatorManager translator = context.getTranslator();
         kiosk.setMenuMode();

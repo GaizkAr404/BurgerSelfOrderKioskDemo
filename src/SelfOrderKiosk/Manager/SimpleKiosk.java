@@ -1,12 +1,10 @@
 package SelfOrderKiosk.Manager;
 
-import SelfOrderKiosk.Manager.TranslatorManager;
 import java.util.List;
 import sienens.BurgerSelfOrderKiosk;
 
 public class SimpleKiosk {
     private BurgerSelfOrderKiosk kiosk;
-
     public SimpleKiosk() {
         kiosk = new BurgerSelfOrderKiosk();
     }
@@ -42,7 +40,7 @@ public class SimpleKiosk {
     public void expelCreditCard(int n){
         kiosk.expelCreditCard(n);
     }
-    
+    //Clears the screen
     public void clearScreen(){
         this.kiosk.setTitle(null);
         this.kiosk.setImage(null);
@@ -66,7 +64,4 @@ public class SimpleKiosk {
         kiosk.setMessageMode();
     }
     
-    public void SimpleKiosk(TranslatorManager translator){
-        
-    }
 }

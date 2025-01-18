@@ -6,6 +6,7 @@ public class IndividualProduct implements Product {
     private String imageFileName;
     private int price;
 
+    //Constructor
     public IndividualProduct(String name, String description, String imageFileName, int price) {
         this.name = name;
         this.description = description;

@@ -1,6 +1,5 @@
 package SelfOrderKiosk.Screens;
 
-import SelfOrderKiosk.Screens.CarouselScreen;
 import SelfOrderKiosk.products.IndividualProduct;
 import SelfOrderKiosk.products.Menu;
 import SelfOrderKiosk.products.Order;
@@ -14,7 +13,7 @@ public class MenuScreen extends CarouselScreen {
         Menu menu = new Menu();
         IndividualProduct product;
         int i = 0;
-
+        //loop to select the products to add to the menu
         while (section <= 2){
             kiosk.setMenuMode();
             kiosk.clearScreen();

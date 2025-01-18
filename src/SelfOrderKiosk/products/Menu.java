@@ -1,17 +1,16 @@
 package SelfOrderKiosk.products;
 
-import SelfOrderKiosk.products.Product;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import SelfOrderKiosk.products.IndividualProduct;
 
 public class Menu implements Product{
     private int discount;
     private List<IndividualProduct> products;
 
+    //Returns the price of the menu
     public int getPrice() {
         int price = 0;
         for (IndividualProduct product : products) {
@@ -26,6 +25,7 @@ public class Menu implements Product{
         return products.size();
     }
 
+    //Rerturns the name of the menu being the names of the products separated by ;
     public String getName() {
         String name = "";
         for (IndividualProduct product : products) {
@@ -34,6 +34,7 @@ public class Menu implements Product{
         return name;
     }
 
+    //Get the discount of the menu from the file Discount.txt
     public void loadDiscount() {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("Discount.txt"));
